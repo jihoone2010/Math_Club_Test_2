@@ -6,6 +6,34 @@
 }
 
 
+.container{
+    animation: pagetransition 0.75s;
+}
+
+
+
+@keyframes pagetransition{
+        from{
+            opacity: 0;
+           
+            
+        }
+
+
+        to{
+            opacity: 1;
+
+     
+        }
+
+}
+
+
+
+#loream{
+    font-size: 100px;
+}
+
 
 body{
     background-image: url(mathimage.png);
@@ -22,7 +50,7 @@ ul li a{
     padding: 20px 40px;
     font-weight: 600;
     font-size: 25px;
-     transition: 0.4s;
+    transition: 0.4s;
 
     
 }
@@ -101,6 +129,11 @@ p{
 }
 
     
+.intro a{
+    text-decoration: none;
+}
+
+
 .welcome{
     text-align: center;
     font-size: 100px;
