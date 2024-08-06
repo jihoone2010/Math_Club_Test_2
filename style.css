@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+body{
+    background-image: url(mathimage.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+
+
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 40px;
+    font-weight: 600;
+    font-size: 25px;
+
+    
+}
+
+navbar.scrolled ul a{
+    color: black;
+}
+
+ul li a:hover{
+    background-color: rgba(255, 255, 255, 0.609);
+    border-radius: 6px;
+}
+
+ul li{
+
+    float: left;
+    display: inline;
+}
+
+
+navbar ul{
+    list-style: none;
+
+}
+
+navbar{
+    background-color: rgba(221, 221, 221, 0.546);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+
+}
+
+
+p{
+    font-size: 30px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+
+
+.intro{
+    text-align: left;
+    
+
+
+}
+
+
+#NVM{
+    text-align: center;
+    font-size: 100px;
+    margin-right: 800px;
+    
+    
+}
+
+
+.intro{
+    background-color: rgba(221, 221, 221, .8);
+    border-radius: 20px;
+
+    text-align: left;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 50px;
+    padding: 50px;
+
+}
+
+    
+.welcome{
+    text-align: center;
+    font-size: 100px;
+    background-color: rgba(221, 221, 221, .8);
+    background-size: 0;
+    color: rgb(144, 165, 232);
+}
+
+h2.welcome{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 100;
+    color: white;
+}
+
+
+
+#center{
+    text-align: center;
+
+}
+
+
+
+
+
+
+
