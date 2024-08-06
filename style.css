@@ -22,17 +22,17 @@ ul li a{
     padding: 20px 40px;
     font-weight: 600;
     font-size: 25px;
+     transition: 0.4s;
 
     
 }
 
-navbar.scrolled ul a{
-    color: black;
-}
+
 
 ul li a:hover{
     background-color: rgba(255, 255, 255, 0.609);
-    border-radius: 6px;
+    border-radius: 10px;
+
 }
 
 ul li{
@@ -122,9 +122,6 @@ h2.welcome{
     text-align: center;
 
 }
-
-
-
 
 
 
