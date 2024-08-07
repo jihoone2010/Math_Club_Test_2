@@ -36,17 +36,21 @@
 }
 
 
+.buttoncenter{
+    text-align: center;
+}
+
 .buj{
-     width: 200px; height: 70px; margin-left: 720px; border: none; font-size: 50px; 
+     width: 200px; height: 70px; position: relative; border: none; font-size: 50px; 
     transition: 0.4s;
     align-items: center;
     background-color: white;
-    color: blue;
+    color: black;
 }
 
 
 .buj:hover{
-    background-color: blue; color: white;
+    background-color: black; color: white;
     cursor: pointer;
 }
 
@@ -90,6 +94,10 @@ ul li{
     float: left;
     display: inline;
 }
+
+
+
+
 
 
 navbar ul{
