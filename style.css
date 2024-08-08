@@ -42,15 +42,16 @@
 
 .buj{
      width: 200px; height: 70px; position: relative; border: none; font-size: 50px; 
+     border-radius: 20px;
     transition: 0.4s;
     align-items: center;
-    background-color: white;
+    background-color: rgba(221, 221, 221, .8);
     color: black;
 }
 
 
 .buj:hover{
-    background-color: black; color: white;
+    background-color: black; color: rgba(221, 221, 221, .8);
     cursor: pointer;
 }
 
